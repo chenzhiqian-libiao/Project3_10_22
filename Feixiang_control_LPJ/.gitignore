@@ -1,0 +1,44 @@
+# Visual Studio and VisualGDB local caches
+.vs/
+.visualgdb/
+VisualGDB/
+TraceReports/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output and temporary files
+build/
+__pycache__/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.o
+*.obj
+*.elf
+*.axf
+*.bin
+*.hex
+*.map
+*.d
+*.dep
+*.alldeps
+*.rsp
+*.dwarfcache
+*.log
+*.tmp
+
+# 本地临时快照（每次调参前手动另存的 .bak_时间戳_说明）
+*.bak
+*.bak_*
+_tc_*
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
